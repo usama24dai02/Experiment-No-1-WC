@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f3;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #004c99;
+        }
+        form {
+            width: 40%;
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #004c99;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff6600;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #004c99;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact Us</h2>
+
+    <form action="#" method="post">
+        <label>Name:</label>
+        <input type="text" name="name">
+
+        <label>Email:</label>
+        <input type="text" name="email">
+
+        <label>Message:</label>
+        <textarea name="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
