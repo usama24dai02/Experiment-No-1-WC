@@ -3,3 +3,6 @@
 ## 📸 Screenshots
 ![Home Page](Home.png)
 
+![Department](OurDepartment.png)
+
+![Contact Us](ContactUs.png)
